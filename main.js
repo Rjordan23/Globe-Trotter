@@ -25,4 +25,3 @@ const ac = document.querySelector('.autocomplete');
         }
     });
 
-
