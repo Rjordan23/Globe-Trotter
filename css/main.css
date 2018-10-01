@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+.active {
+    cursor: pointer;
+}
+
+/* Section: Offers */
+.offers {
+    display: flex;
+    justify-content: center;
+}
+
+.offers ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.offers a {
+    color: #000000;
+}
+
+.offers a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+/* Hidden Mobile Sidenav content will display at width 610px */
+#mobile-offers {
+    display: none;
+}
+
+
+
+/*  */
+.section-search input {
+    padding: 5px !important;
+    font-size: 18px !important;
+    width: 90% !important;
+    border: #f4f4f4 3px solid !important;
+}
+
+.special-offer {
+    position: relative !important;
+}
+
+.promo-banner {
+    position: absolute !important;
+    margin-top: -3%;
+    width: 30% !important;
+}
+
+.promo-title {
+    position: absolute;
+    bottom: 2%;
+    padding: 3px 12px;
+    background: linear-gradient(to top, #BE1207,#DE0B07,#EF1311, #FE6365 );
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
+    -webkit-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
+}
+
+/* Star rating, may come back to use later */
+/* .promo-rating {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+.promo-rating li {
+    display: inline;
+}
+
+.promo-star-bg {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+.promo-star-bg li {
+    display: inline;
+} */
+
+.btn-container {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.promo-btn {
+    background: linear-gradient(to top, #BE1207,#DE0B07,#EF1311, #FE6365 );
+    font-weight: 600;
+}
+
+.fa-map-marked-alt {
+    margin-left: 2px;
+}
+
+/* Section: Mobile App */
+.mobile-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mobile-left {
+    display: inline;
+    padding-left: 20px;
+}
+
+.mobile-right {
+    text-align: center;
+}
+
+.apps {
+    padding: 0 10px;
+}
+
+#stripe {
+    margin-left: -20px;
+    width: 150%;
+}
+
+.mobile-right img {
+    padding-top: 10px;
+    width: 400px;
+}
+
+/* //// Rental Promo ///// */
+/* Left Div */
+.rental-car img {
+    width: 100%;
+}
+
+/* Center Div */
+.rental-sale {
+    display: flex;
+    justify-content: center;
+}
+
+/* Right Div */
+.rental-cta ul {
+    display: flex;
+    justify-content: center;
+}
+
+.rental-cta div {
+    text-align: center;
+}
+
+.rental-cta ul li {
+    display: inline;
+}
+
+.rental-cta ul li img {
+    width: 105px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:610px) {
+    .offers {
+
+        display: none;
+    }
+
+    #mobile-offers {
+        display: block;
+    }
+}

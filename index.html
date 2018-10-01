@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <!-- CSS -->
+      <link rel="stylesheet" href="css/main.css">
+      <!-- Font Awesome Icons CCDN -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      <title>Couch Surfer</title>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body id="home" class="scrollspy">
+      <!-- Navigation bar -->
+      <div class="navbar-fixed">
+        <nav class="amber">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo black-text">Couch Surfer</a>
+              <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li>
+                  <a href="#home" class="black-text">Home</a>
+                </li>
+                <li>
+                  <a href="#search" class="black-text">Search</a>
+                </li>
+                <li>
+                  <a href="#hot" class="black-text">Hot Spots</a>
+                </li>
+                <li>
+                  <a href="#gallery" class="black-text">Gallery</a>
+                </li>
+                <li>
+                  <a href="#Contact" class="black-text">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Mobile SideNav Hamburger -->
+      <ul class="sidenav" id="mobile-nav">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#search">Search</a>
+        </li>
+        <li>
+          <a href="#hot">Hot Spots</a>
+        </li>
+        <li>
+          <a href="#gallery">Gallery</a>
+        </li>
+        <li>
+          <a href="#Contact">Contact</a>
+        </li>
+        <ul id="mobile-offers">
+          <li>
+              <a href="#">Flights</a>
+            </li>
+            <li>
+              <a href="#">Hotels</a>
+            </li>
+            <li>
+              <a href="#">Bundles</a>
+            </li>
+            <li>
+              <a href="#">Cars</a>
+            </li>
+            <li>
+              <a href="#">Cruises</a>
+            </li>
+            <li>
+              <a href="#">Vacation Rentals</a>
+            </li>
+            <li>
+              <a href="#">Rewards</a>
+            </li>
+            <li>
+              <a href="#">Account</a>
+            </li>
+        </ul>
+      </ul>
+      
+      <!-- Section: Offers -->
+      <section class="offers amber lighten-3">
+        <ul>
+          <li>
+            <a href="#">Flights</a>
+          </li>
+          <li>
+            <a href="#">Hotels</a>
+          </li>
+          <li>
+            <a href="#">Bundles</a>
+          </li>
+          <li>
+            <a href="#">Cars</a>
+          </li>
+          <li>
+            <a href="#">Cruises</a>
+          </li>
+          <li>
+            <a href="#">Vacation Rentals</a>
+          </li>
+          <li>
+            <a href="#">Rewards</a>
+          </li>
+          <li>
+            <a href="#">Account</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section: Hero Slider  -->
+      <section class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/resort1.jpeg">
+            <div class="caption center-align">
+              <h2>Take Your Dream Vacation</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptae explicabo!</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/resort2.jpeg">
+            <div class="caption left-align">
+              <h2>Group and Individual Get Aways</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde voluptas.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/resort3.jpeg">
+            <div class="caption right-align">
+              <h2>We Work With All Budgets</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolore.</h5>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section: Search -->
+      <section id="search" class="section section-search amber darken-1 black-text center scrollspy">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h3>Search Destinations</h3>
+              <div class="input-field">
+                <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Aruba, Cancun, etc...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Icons Boxes -->
+      <section class="section section-icons grey lighten-4 center">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="card-panel">
+                <i class="material-icons large amber-text text-darken-2">room</i>
+                <h4>Pick Where</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, dolorem!</p>
+              </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card-panel">
+                  <i class="material-icons large amber-text text-darken-2">beach_access</i>
+                  <h4>Have Fun</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, dolorem!</p>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card-panel">
+                    <i class="material-icons large amber-text text-darken-2">airplanemode_active</i>
+                    <h4>Fly Cheap</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, dolorem!</p>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Popular Places  -->
+      <section id="popular" class="section section-popular scrollspy">
+        <div class="container">
+          <div class="row">
+            <h4 class="center">
+              <span class="amber-text">Special</span> Offers
+            </h4>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image special-offer">
+                  <img src="img/huts.jpeg" alt="">
+                  <img  class="promo-banner" src="img/banner2.png" alt="">
+                  <!-- Star ratings -->
+                  <!-- <ul class="promo-rating">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                  <ul class="promo-star-bg">
+                    <li><i class="far fa-star"></i></li>
+                    <li><i class="far fa-star"></i></li>
+                    <li><i class="far fa-star"></i></li>
+                    <li><i class="far fa-star"></i></li>
+                  </ul> -->
+                  <span class="promo-title">
+                    Maui
+                  </span>
+                </div>
+                <div class="card-content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi voluptas illo. Itaque, obcaecati nulla?
+                  <div class="btn-container">
+                    <a class="waves-effect waves-light btn-small promo-btn">View Offer <i class="fas fa-map-marked-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image special-offer">
+                  <img src="img/paris.jpeg" alt="">
+                  <img  class="promo-banner" src="img/banner2.png" alt="">
+                  <!-- Star ratings -->
+                  <!-- <ul class="promo-rating">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                    <ul class="promo-star-bg">
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul> -->
+                  <span class="promo-title">
+                    Paris
+                  </span>
+                </div>
+                <div class="card-content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi voluptas illo. Itaque, obcaecati nulla?
+                  <div class="btn-container">
+                      <a class="waves-effect waves-light btn-small promo-btn">View Offer <i class="fas fa-map-marked-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col s12 m4">
+                <div class="card">
+                  <div class="card-image special-offer">
+                    <img src="img/thailand.jpg" alt="">
+                    <img  class="promo-banner" src="img/banner2.png" alt="">
+                    <!-- Star ratings -->
+                    <!-- <ul class="promo-rating">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                      </ul>
+                      <ul class="promo-star-bg">
+                        <li><i class="far fa-star"></i></li>
+                        <li><i class="far fa-star"></i></li>
+                        <li><i class="far fa-star"></i></li>
+                        <li><i class="far fa-star"></i></li>
+                      </ul> -->
+                    <span class="promo-title">
+                      Thailand
+                    </span>
+                  </div>
+                  <div class="card-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi voluptas illo. Itaque, obcaecati nulla?
+                    <div class="btn-container">
+                        <a class="waves-effect waves-light btn-small promo-btn">View Offer <i class="fas fa-map-marked-alt"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!--Section: Mobile Apps  -->
+    <section id="mobile-app" class="grey lighten-4">
+      <div class="mobile-container">
+        <!-- left Side -->
+          <div class="mobile-left">
+              <p>Lorem ipsum dolor sit.</p>
+              <h5>Lorem ipsum dolor sit amet, consectetur.</h5>
+              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptate vitae. Aut, unde. Corporis ad porro voluptas consequatur facere dolorem sint fugiat odit, quisquam nihil!</p>
+              <img class=" apps active" src="img/icons/apple.png" alt="">
+              <img class="apps active" src="img/icons/google.png" alt="">
+              <img id="stripe" src="img/Vacation-Beach-PNG-Background-Image1-1024x297.png" alt="">
+          </div>
+          <!-- Right Side -->
+          <div class="mobile-right">
+              <img class="" src="img/iphone-x-and-note-9-png-13.png" alt="">
+          </div>
+      </div>
+    </section>
+
+    <section id="car-rentals" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4 rental-car">
+                  <img src="img/2016-Ford-Mustang-2.png" alt="">
+                </div>
+                <div class="col s12 m4 rental-sale">
+                    <div>
+                      <h3>Limited Time </h3>
+                      <h4 class="">RENTAL CAR <span class="blue-text">Sale!</span></h4>
+                      <p class="">Save up to 25% on Rentals</p>
+                    </div>
+                </div>
+                <div class="col s12 m4 rental-cta">
+                    <ul class="">
+                      <li><img src="img/logos/davis.png" alt=""></li>
+                      <li><img src="img/logos/cheapo.png" alt=""></li>
+                    </ul>
+                    <ul>
+                      <li><img src="img/logos/last-dollar.png" alt=""></li>
+                      <li><img src="img/logos/risky.png" alt=""></li>
+                    </ul>
+                    <div class="">
+                      <a href="#" class="waves-effect waves-light btn">View offers</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <!-- Sidenav / Hero Slider -->
+      <script src="main.js"></script>
+    </body>
+  </html>
+        
