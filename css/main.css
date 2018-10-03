@@ -9,6 +9,10 @@
 
 
 /* ////// Logo and Company Name ////// */
+nav {
+    width: 100%;
+}
+
 .nav-wrapper a {
     display: flex;
 }
@@ -291,7 +295,7 @@
     box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
 }
 
-/* Company Logos */
+/* /////// Company Logos ///////// */
 #corp-logos ul {
 }
 
