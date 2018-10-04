@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
-    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'Fira Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* /////// Universal classes /////// */
@@ -10,6 +12,15 @@
 
 p {
     line-height: 1.6rem;
+}
+
+.section-title {
+    color: #0D4461;
+    font-weight: 600;
+}
+
+.shadow-text {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.91);
 }
 
 
@@ -55,6 +66,60 @@ nav {
     display: none;
 }
 
+/* ////// Rental Promo /////// */
+#car-rentals {
+    margin-top: 40px;
+}
+
+/* Left Div */
+.rental-car img {
+    width: 118%;
+}
+
+/* Center Div */
+.rental-sale {
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+.rental-sale p:nth-of-type(1) {
+    background: #FFB300;
+    color: #ffffff;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.91);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 0;
+}
+
+#timer {
+    color: #A60303;
+}
+
+.rental-sale p:nth-of-type(2) {
+    font-size: 30px;
+}
+
+/* Right Div */
+.rental-cta ul {
+    margin: 0;
+}
+
+.rental-cta ul li {
+    margin-bottom: 15px;
+}
+
+.rental-cta ul li img {
+    width: 98px;
+}
+
+.rental-cta a {
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.91);
+}
+
+/* //////////  Popular Destinations //////// */
 .section-search input {
     padding: 5px !important;
     font-size: 18px !important;
@@ -77,7 +142,7 @@ nav {
     bottom: 2%;
     padding: 3px 12px;
     background-color: white;
-    color: black;
+    color: #0D4461;
     font-size: 16px;
     font-weight: 600;
     border-radius: 2px;
@@ -86,7 +151,26 @@ nav {
     box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.75);
 }
 
-/* /////  ///// */
+.social-likes ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    border-bottom: 1px solid rgba(143, 139, 139, 0.315);
+}
+
+.social-likes ul li {
+    text-align: center;
+    padding: 10px 10px;
+    color: #0D4461;
+    font-weight: 600;
+}
+
+.social-likes ul li i {
+    margin-right: 5px;
+}
+
+/* ///// Stars  ///// */
 /* .promo-rating {
     position: absolute;
     bottom: 0;
@@ -147,35 +231,22 @@ nav {
 }
 
 .mobile-right img {
-    padding-top: 10px;
+    padding-top: 18px;
     width: 400px;
 }
 
-/* ////// Rental Promo /////// */
-/* Left Div */
-.rental-car img {
-    width: 118%;
-}
-
-/* Center Div */
-
-
-/* Right Div */
-.rental-cta ul {
-    align-items: center;
-}
-
-.rental-cta ul li {
-    margin: 0 5px;
-}
-
-.rental-cta ul li img {
-    width: 98px;
-}
-
 /* /////// Section: Follow ////// */
+.section-follow {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.91);
+}
+
 .section-follow .fa-4x {
     margin: 5px 10px;
+}
+
+.section-follow .fa-4x:hover {
+    color: #0D4461;
+    transition: all .3s ease-in-out;
 }
 
 /* ////// Section: Galery ////// */
@@ -314,6 +385,7 @@ nav {
 #card-perks {
     display: flex;
     justify-content: center;
+    color: #ffffff;
 }
 
 #card-perks ul {
@@ -326,10 +398,18 @@ nav {
     margin-bottom: 6px; 
 }
 
+#card-perks ul li a {
+    background-color: #0D418D;
+}
+
+#credit p {
+    font-size: 8px;
+}
+
 /* ////// Media Queries ////// */
 @media (min-width:993px) {
     .rental-car img {
-        padding-top: 20%;
+        padding-top: 15%;
         margin-left: -10px;
     }
 }
@@ -475,9 +555,13 @@ nav {
     .nav-wrapper a img {
         width: 40px;
     }
+    .mobile-right img {
+        padding-top: 80px;
+        width: 280px;
+    }
 }
 
-@media (max-width:555px) {
+@media (max-width:585px) {
     #stripe {
         margin-left: -20px;
         width: 150%;
@@ -504,6 +588,9 @@ nav {
         padding-top: 10px;
         width: 180px;
     }
+}
+
+@media (max-width:555px) {
     .rental-car img {
         width: 90%;
     }
@@ -556,6 +643,20 @@ nav {
     }
     #corp-logos ul li {
         padding: 0 20px;
+    }
+    #card-perks {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #card-perks ul {
+        margin-left: 60px;
+    }
+    
+    #card-perks ul li {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 6px; 
     }
 }
 

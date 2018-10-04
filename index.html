@@ -157,7 +157,7 @@
       </section>
 
       <!-- Section: Search -->
-      <section id="search" class="section section-search amber darken-2o black-text center scrollspy">
+      <section id="search" class="section section-search amber darken-1 black-text center scrollspy">
         <div class="container">
           <div class="row">
             <div class="col s12">
@@ -176,7 +176,7 @@
           <div class="row">
             <div class="col s12 m4">
               <div class="card-panel">
-                <i class="material-icons large amber-text text-darken-2">room</i>
+                <i class="material-icons large amber-text text-darken-1">room</i>
                 <h4>Pick Where </h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, dolorem!</p>
               </div>
@@ -208,9 +208,10 @@
                 </div>
                 <div class="col s12 m7 l5 rental-sale center">
                     <div class="">
-                      <h3>Limited Time </h3>
-                      <h4 class="">RENTAL CAR <span class="blue-text">Sale!</span></h4>
-                      <p class="">Save up to 25% on Rentals</p>
+                      <p>Limited Time</p>
+                      <p class="">RENTAL CAR SALE!</p>
+                      <p class="">Save up to 35% on Rentals</p>
+                      <p class="d-inline">Time left: <span id="timer"></span></p>
                     </div>
                 </div>
                 <div class="col s12 m5 l3 rental-cta center">
@@ -224,7 +225,7 @@
                         <li><img src="img/logos/risky.png" alt=""></li>
                       </ul> -->
                       <div class="">
-                        <a href="#" class="waves-effect waves-light btn">View offers</a>
+                        <a href="#" class="waves-effect amber darken-2 waves-light btn">View offers</a>
                       </div>
                     </div>
                 </div>
@@ -236,9 +237,9 @@
       <section id="popular" class="section section-popular scrollspy">
         <div class="container">
           <div class="row">
-            <h4 class="center">
-              <span class="amber-text">Popular</span> Destinations
-            </h4>
+            <h5 class="section-title">
+              <span class="">Today's</span> Top Destinations
+            </h5>
             <div class="col s12 m4">
               <div class="card">
                 <div class="card-image special-offer">
@@ -261,10 +262,17 @@
                     Maui
                   </span>
                 </div>
+                <div class="social-likes">
+                  <ul>
+                    <li><i class="fas fa-eye"></i> 456</li>
+                    <li><i class="fas fa-heart"></i> 302</li>
+                    <li><i class="fas fa-comment"></i> 20</li>
+                  </ul>
+                </div>
                 <div class="card-content">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi voluptas illo. Itaque, obcaecati nulla?
                   <div class="btn-container">
-                    <a class="waves-effect waves-light btn-small promo-btn">View Offer <i class="fas fa-map-marked-alt"></i></a>
+                    <a class="waves-effect waves-light btn-small promo-btn shadow-text">View Offer <i class="fas fa-map-marked-alt"></i></a>
                   </div>
                 </div>
               </div>
@@ -291,10 +299,17 @@
                     Paris
                   </span>
                 </div>
+                <div class="social-likes">
+                  <ul>
+                    <li><i class="fas fa-eye"></i> 313</li>
+                    <li><i class="fas fa-heart"></i> 102</li>
+                    <li><i class="fas fa-comment"></i> 16</li>
+                  </ul>
+                </div>
                 <div class="card-content">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi voluptas illo. Itaque, obcaecati nulla?
                   <div class="btn-container">
-                      <a class="waves-effect waves-light btn-small promo-btn">View Offer <i class="fas fa-map-marked-alt"></i></a>
+                      <a class="waves-effect waves-light btn-small promo-btn shadow-text">View Offer <i class="fas fa-map-marked-alt"></i></a>
                   </div>
                 </div>
               </div>
@@ -318,13 +333,20 @@
                         <li><i class="far fa-star"></i></li>
                       </ul> -->
                     <span class="promo-title">
-                      Thailand
+                      Bangkok
                     </span>
+                  </div>
+                  <div class="social-likes">
+                    <ul>
+                      <li><i class="fas fa-eye"></i> 388</li>
+                      <li><i class="fas fa-heart"></i> 290</li>
+                      <li><i class="fas fa-comment"></i> 24</li>
+                    </ul>
                   </div>
                   <div class="card-content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quasi voluptas illo. Itaque, obcaecati nulla?
                     <div class="btn-container">
-                        <a class="waves-effect waves-light btn-small promo-btn">View Offer <i class="fas fa-map-marked-alt"></i></a>
+                        <a class="waves-effect waves-light btn-small promo-btn shadow-text">View Offer <i class="fas fa-map-marked-alt"></i></a>
                     </div>
                   </div>
                 </div>
@@ -355,7 +377,7 @@
       </section>
 
       <!-- Section: Social Media -->
-      <section class="section section-follow amber darken-1 black-text center">
+      <section class="section section-follow amber darken-1 white-text center">
         <div class="container">
           <div class="row">
             <div class="col s12">
@@ -382,11 +404,13 @@
       </section>
 
       <!-- Section: Image Gallery -->
-      <section id="gallery" class="section section-gallery center scrollspy">
-        <h4 class="">
-          <span class="amber-text">Photo</span> Gallery
-        </h4>
-          <div class="travel-section">
+      <section id="gallery" class="section section-gallery scrollspy">
+        <div class="container">
+          <h4 class="">
+            <span class="section-title">This Months Top Deals</span>
+          </h4>
+        </div>
+          <div class="travel-section center">
               <!--  -->
               <div class="box box0 ">
                 <span class="price-tag-long">Punta Cana</span>
@@ -394,7 +418,7 @@
                   <ul>
                     <li class="discount">57% off</li>
                     <li class="savings">$86</li>
-                    <li><a class="btn waves-effect waves-light amber darken-2" href="#">Lets Go!</a></li>
+                    <li><a class="btn waves-effect waves-light amber darken-2 shadow-text" href="#">Lets Go!</a></li>
                   </ul>
                 </span>
               </div>
@@ -405,7 +429,7 @@
                   <ul>
                     <li class="discount">48% off</li>
                     <li class="savings">$66</li>
-                    <li><a class="btn waves-effect waves-light amber darken-2" href="#">Lets Go!</a></li>
+                    <li><a class="btn waves-effect waves-light amber darken-2 shadow-text" href="#">Lets Go!</a></li>
                   </ul>
                 </span> 
               </div>
@@ -416,7 +440,7 @@
                   <ul>
                     <li class="discount">55% off</li>
                     <li class="savings">$99</li>
-                    <li><a class="btn waves-effect waves-light amber darken-2" href="#">Lets Go!</a></li>
+                    <li><a class="btn waves-effect waves-light amber darken-2 shadow-text" href="#">Lets Go!</a></li>
                   </ul>
                 </span> 
               </div>
@@ -427,7 +451,7 @@
                   <ul>
                     <li class="discount">67% off</li>
                     <li class="savings">$75</li>
-                    <li><a class="btn waves-effect waves-light amber darken-2" href="#">Lets Go!</a></li>
+                    <li><a class="btn waves-effect waves-light amber darken-2 shadow-text" href="#">Lets Go!</a></li>
                   </ul>
                 </span> 
               </div>
@@ -438,7 +462,7 @@
                   <ul>
                     <li class="discount">72% off</li>
                     <li class="savings">$89</li>
-                    <li><a class="btn waves-effect waves-light amber darken-2" href="#">Lets Go!</a></li>
+                    <li><a class="btn waves-effect waves-light amber darken-2 shadow-text" href="#">Lets Go!</a></li>
                   </ul>
                 </span> 
               </div>
@@ -449,7 +473,7 @@
                   <ul>
                     <li class="discount">48% off</li>
                     <li class="savings">$102</li>
-                    <li><a class="btn waves-effect waves-light amber darken-2" href="#">Lets Go!</a></li>
+                    <li><a class="btn waves-effect waves-light amber darken-2 shadow-text" href="#">Lets Go!</a></li>
                   </ul>
                 </span> 
               </div>
@@ -460,7 +484,7 @@
                     <ul>
                       <li class="discount">62% off</li>
                       <li class="savings">$72</li>
-                      <li><a class="btn waves-effect waves-light amber darken-2" href="#">Lets Go!</a></li>
+                      <li><a class="btn waves-effect waves-light amber darken-2 shadow-text" href="#">Lets Go!</a></li>
                     </ul>
                   </span>            
               </div>
@@ -471,7 +495,7 @@
                     <ul>
                       <li class="discount">88% off</li>
                       <li class="savings">$56</li>
-                      <li><a class="btn waves-effect waves-light amber darken-2" href="#">Lets Go!</a></li>
+                      <li><a class="btn waves-effect waves-light amber darken-2 shadow-text" href="#">Lets Go!</a></li>
                     </ul>
                   </span> 
               </div>
@@ -484,7 +508,7 @@
                     <ul>
                       <li class="discount">67% off</li>
                       <li class="savings">$70</li>
-                      <li><a class="btn waves-effect waves-light amber darken-2" href="#">Lets Go!</a></li>
+                      <li><a class="btn waves-effect waves-light amber darken-2 shadow-text" href="#">Lets Go!</a></li>
                     </ul>
                   </span> 
               </div>
@@ -515,19 +539,19 @@
       </section>
 
       <!-- Section: Credit -->
-      <section class="section amber darken-1">
+      <section id="credit" class="section amber darken-1">
         <div class="container">
           <div id="card-perks">
             <img src="img/credit-card-calculator-image.png" alt="">
-            <ul>
+            <ul class="shadow-text">
               <li>50,000 Initial points</li>
               <li>Earn 2X Travel Points</li>
               <li>Earn 3X Dinning Points</li>
               <li>No Annual Fee</li>
-              <li><a class="btn" href="#">Apply Today</a></li>
+              <li><a class="btn shadow-text" href="#">Apply Today</a></li>
             </ul>
           </div>
-          <p>*Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi nulla harum sit voluptatibus! Officiis, modi animi molestias error consectetur nam deserunt doloribus vitae expedita fugiat voluptas consequuntur eum sunt dolores?</p>
+          <p>*Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi nulla harum sit voluptatibus! Officiis, modi animi molestias error consectetur nam deserunt doloribus vitae expedita fugiat voluptas consequuntur eum sunt dolores? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos a optio quasi, amet commodi voluptatibus aperiam molestias placeat? Ex, quisquam ipsa nemo eum sint aliquid iusto. Vitae labore voluptatum tempore!</p>
         </div>
       </section>
 
