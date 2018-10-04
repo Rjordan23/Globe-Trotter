@@ -194,7 +194,6 @@ nav {
     bottom: 2%;
     padding: 3px 12px;
     background-color: white;
-    color: #0D4461;
     font-size: 16px;
     font-weight: 600;
     border-radius: 2px;
@@ -214,7 +213,8 @@ nav {
 .social-likes ul li {
     text-align: center;
     padding: 10px 10px;
-    color: #0D418D;
+    color: #666666;
+    opacity: .5;
     font-weight: 600;
 }
 
@@ -386,6 +386,7 @@ nav {
     background-image: linear-gradient(to top, rgba( 0,0,0,.2), rgba(0,0,0,.1)), url('../img/gallery-bg/punta-cana.jpg');
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .box9 {
