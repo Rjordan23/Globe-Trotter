@@ -22,6 +22,18 @@ const ac = document.querySelector('.autocomplete');
             "Jamaca": null,
             "Puerto Rico": null,
             "California": null,
+            "Maui": null,
+            "Paris": null,
+            "Bangkok": null,
+            "Punta Cuna": null,
+            "Toronto": null,
+            "New York": null,
+            "Tokyo": null,
+            "Dubai": null,
+            "Mombasa": null,
+            "Sydney": null,
+            "Chicago":  null,
+            "Las Vegas": null
         }
     });
 

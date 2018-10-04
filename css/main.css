@@ -40,7 +40,6 @@ nav {
 
 .nav-wrapper ul li {
     color: #0D418D;
-    font-weight: 550;
 }
 
 .nav-wrapper a img {
@@ -69,7 +68,7 @@ nav {
 }
 
 .offers a:hover {
-    border-bottom: 1.5px solid #0D418D;
+    border-bottom: 1.3px solid #0D418D;
 }
 
 /* ////// Hidden Mobile Sidenav content will display at width 610px ////// */
@@ -94,6 +93,7 @@ nav {
     top: 21%;
     right: 6%;
     color: #66666698;
+    opacity: .5;
 }
 
 #gaurantee ul {
@@ -111,13 +111,16 @@ nav {
 .fa-check-circle {
     display: flex;
     align-self: center;
-    padding: 0 10px;
-    color: #0D418D; 
+    padding-right: 5px;
 }
 
 /* ////// Rental Promo /////// */
 #car-rentals {
     margin-top: 40px;
+}
+
+#mobile-car {
+    display: none;
 }
 
 /* Left Div */
@@ -211,7 +214,7 @@ nav {
 .social-likes ul li {
     text-align: center;
     padding: 10px 10px;
-    color: #0D4461;
+    color: #0D418D;
     font-weight: 600;
 }
 
@@ -437,11 +440,6 @@ nav {
     color: #ffffff;
 }
 
-#card-perks img {
-    width: 70%;
-    height: 70%;
-}
-
 #card-perks ul {
     margin-left: 60px;
 }
@@ -570,8 +568,11 @@ nav {
 }
 
 @media (max-width:710px) {
-    #card-perks ul {
-        display: none;
+    #card-perks img {
+        display: flex;
+        align-self: center;
+        width: 40%;
+        height: 40%;
     }
     #card-perks p{
         display: inline-block;
@@ -596,6 +597,7 @@ nav {
     }
 }
 
+/* Mobile Side */
 @media (max-width:610px) {
     #mobile-header {
         display: flex;
@@ -704,11 +706,10 @@ nav {
     }
     
     #card-perks ul {
-        margin-left: 60px;
     }
     
     #card-perks ul li {
-        font-size: 20px;
+        font-size: 13px;
         font-weight: 600;
         margin-bottom: 6px; 
     }
@@ -722,11 +723,17 @@ nav {
         font-size: 15px;
         font-weight: 600;
     }
+    #gaurantee {
+        display: none;
+    }
 }
 
 @media (max-width:315px) {
     .mobile-right img {
         display: none;
+    }
+    #card-perks a {
+        font-size: 10px;
     }
 }
 
