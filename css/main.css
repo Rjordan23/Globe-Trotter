@@ -19,18 +19,28 @@ p {
     font-weight: 600;
 }
 
+.hero-shadow-text {
+    text-shadow: 2px 2px 2px #000000;
+}
+
 .shadow-text {
     text-shadow: 1px 1px 2px rgba(0,0,0,0.91);
 }
 
-
-/* ////// Logo and Company Name ////// */
+/* ////// Fixed Nav bar ////// */
 nav {
     width: 100%;
+    color: #0D418D;
 }
 
 .nav-wrapper a {
     display: flex;
+    color: #0D418D;
+}
+
+.nav-wrapper ul li {
+    color: #0D418D;
+    font-weight: 550;
 }
 
 .nav-wrapper a img {
@@ -54,16 +64,55 @@ nav {
 }
 
 .offers a {
-    color: #000000;
+    color: #0D418D;
+    font-weight: 500;
 }
 
 .offers a:hover {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1.5px solid #0D418D;
 }
 
 /* ////// Hidden Mobile Sidenav content will display at width 610px ////// */
 #mobile-offers {
     display: none;
+}
+
+/* ////// Section: Search /////// */
+#search p {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.91);
+}
+
+#trip-search-box {
+    position: relative;
+}
+
+.fa-search-location {
+    position: absolute;
+    top: 21%;
+    right: 6%;
+    color: #66666698;
+}
+
+#gaurantee ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#gaurantee ul li {
+    display: flex;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.91);
+    align-self: center;
+}
+
+.fa-check-circle {
+    display: flex;
+    align-self: center;
+    padding: 0 10px;
+    color: #0D418D; 
 }
 
 /* ////// Rental Promo /////// */
@@ -386,6 +435,11 @@ nav {
     display: flex;
     justify-content: center;
     color: #ffffff;
+}
+
+#card-perks img {
+    width: 70%;
+    height: 70%;
 }
 
 #card-perks ul {
