@@ -76,6 +76,23 @@ nav {
     display: none;
 }
 
+.mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.mobile-header p {
+    font-size: 25px;
+    color: #0D418D;
+    margin: 0;
+}
+
+.mobile-header a img {
+    width: 80px;
+}
+
 /* ////// Section: Search /////// */
 #search p {
     color: #ffffff;
@@ -426,8 +443,13 @@ nav {
 }
 
 /* /////// Company Logos ///////// */
-#corp-logos ul li {
-    display: inline;
+#corp-logos ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 
 /* ///// Text Area ///// */
@@ -460,6 +482,21 @@ nav {
     font-size: 8px;
 }
 
+/* /////// Footer ////// */
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer img {
+    width: 250px;
+    height: 159px;
+}
+
 /* ////// Media Queries ////// */
 @media (min-width:993px) {
     .rental-car img {
@@ -484,6 +521,13 @@ nav {
     }
     #corp-logos ul li {
         padding: 0 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    footer img {
+        width: 150px;
+        height: 95px;
     }
 }
 
@@ -581,7 +625,7 @@ nav {
     }
 }
 
-@media (max-width:610px) {
+@media (max-width:620px) {
     .offers {
         display: none;
     }
@@ -600,7 +644,7 @@ nav {
 }
 
 /* Mobile Side */
-@media (max-width:610px) {
+@media (max-width:620px) {
     #mobile-header {
         display: flex;
     }
@@ -655,6 +699,10 @@ nav {
     #corp-logos ul li {
         padding: 0 10px;
     }
+    footer img {
+        width: 75px;
+        height: 55px;
+    }
 }
 
 @media (max-width:473px) {
@@ -705,9 +753,6 @@ nav {
     #card-perks {
         display: flex;
         justify-content: center;
-    }
-    
-    #card-perks ul {
     }
     
     #card-perks ul li {
