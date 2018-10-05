@@ -37,6 +37,10 @@ const ac = document.querySelector('.autocomplete');
         }
     });
 
+// Scrollspy
+const ss = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(ss, {});
+
 
 
 
